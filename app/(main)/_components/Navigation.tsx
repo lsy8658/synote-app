@@ -33,23 +33,6 @@ export default function Navigation() {
         "width",
         `calc(100% - ${newWidth}px)`
       );
-      /*
-        setProperty CSS 선언 블록에서 새 CSS 속성 설정 또는, 
-        기존 CSS 속성 수정. setProperty("background-color", "yellow")
-        object.setProperty(propertyname, value, priority)
-
-        propertyname
-
-        필수. 설정할 속성명
-
-        value
-
-        선택. 새 속성값
-
-        priority
-
-        선택. CSS적용우선순위 (!important) 표시여부 
-      */
     }
   };
 
@@ -70,6 +53,24 @@ export default function Navigation() {
     document.addEventListener("mousemove", handleMouseMove);
     document.addEventListener("mouseup", handleMouseUp);
   };
+
+  /*
+        setProperty CSS 선언 블록에서 새 CSS 속성 설정 또는, 
+        기존 CSS 속성 수정. setProperty("background-color", "yellow")
+        object.setProperty(propertyname, value, priority)
+
+        propertyname
+
+        필수. 설정할 속성명
+
+        value
+
+        선택. 새 속성값
+
+        priority
+
+        선택. CSS적용우선순위 (!important) 표시여부 
+      */
 
   return (
     <>
