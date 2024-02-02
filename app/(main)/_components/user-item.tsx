@@ -20,7 +20,7 @@ import { SignOutButton, useUser } from "@clerk/clerk-react";
 */
 export default function UserItem() {
   const { user } = useUser();
-  console.log(user);
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
